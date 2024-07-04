@@ -24,4 +24,4 @@ app.use("/api/cruds", crudRoutes);
 //app.use("/api/auth", authRoute);
 
 // listening on port
-app.listen(PORT, () => console.log(`Listening on port ${PORT}...`));
+app.listen(8000, () => console.log(`Listening on port 8000...`));
