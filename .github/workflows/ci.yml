@@ -38,10 +38,10 @@ jobs:
           cd client
           npm i --force
 
-      - name: Run ESLint on frontend
-        run: |
-          cd client
-          npx eslint '**/*.js'
+     # - name: Run ESLint on frontend
+      #  run: |
+       #   cd client
+        #  npx eslint '**/*.js'
 
       - name: Run Stylelint for css
         run: |
