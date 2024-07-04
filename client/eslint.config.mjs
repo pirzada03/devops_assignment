@@ -21,10 +21,15 @@ export default [
       react: pluginReact,
       'react-hooks': pluginReactHooks
     },
+    settings: {
+      react: {
+        version: "17.0.2"
+      }
+    },
     rules: {
       ...pluginJs.configs.recommended.rules,
       ...pluginReact.configs.recommended.rules,
-      'react/react-in-jsx-scope': 'off',
+      'react/react-in-jsx-scope': 'error', // Ensuring React is in scope for React 17
       'react/no-unknown-property': ['error', { ignore: ['class', 'row', 'align'] }],
       'react-hooks/exhaustive-deps': 'error',
       'no-unused-vars': 'warn',
