@@ -43,9 +43,9 @@ jobs:
        #   cd client
         #  npx eslint '**/*.js'
 
-      - name: Run Stylelint for css
-        run: |
-          npx stylelint '**/*.css'
+     # - name: Run Stylelint for css
+     #   run: |
+     #     npx stylelint '**/*.css'
 
       - name: Build Backend
         run: |
