@@ -21,8 +21,6 @@
 		"react-ios-pwa-prompt": "^1.8.4",
 		"react-router-dom": "^6.2.2",
 		"react-scripts": "5.0.0",
-		"stylelint": "^16.6.1",
-		"stylelint-scss": "^6.3.2",
 		"web-vitals": "^2.1.4",
 		"workbox-background-sync": "^5.1.4",
 		"workbox-broadcast-update": "^5.1.4",
@@ -64,12 +62,5 @@
 		]
 	},
 	"description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-	"license": "ISC",
-	"devDependencies": {
-		"@eslint/js": "^9.6.0",
-		"eslint": "^8.57.0",
-		"eslint-plugin-react": "^7.34.3",
-		"globals": "^15.8.0",
-		"prettier-eslint": "^16.3.0"
-	}
+	"license": "ISC"
 }
